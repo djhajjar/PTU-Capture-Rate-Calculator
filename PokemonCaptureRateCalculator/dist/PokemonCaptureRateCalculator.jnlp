@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PokemonCaptureRateCalculator.jnlp">
+  <information>
+    <title>PokemonCaptureRateCalculator</title>
+    <vendor>djhaj</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PokemonCaptureRateCalculator.jar" size="8717" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PokemonCaptureRateCalculator" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pokemoncaptureratecalculator.Main"  name="PokemonCaptureRateCalculator" />
+  <update check="always"/>
+</jnlp>
